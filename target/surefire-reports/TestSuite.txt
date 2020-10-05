@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 18.463 sec <<< FAILURE! - in TestSuite
+AddCustomertest(com.evoketech.testscripts.AddCustomer)  Time elapsed: 1.109 sec  <<< FAILURE!
+org.openqa.selenium.InvalidSelectorException: 
+invalid selector: Unable to locate an element with the xpath expression //input[@placeholder='Post Code' because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@placeholder='Post Code'' is not a valid XPath expression.
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9K27E3Q', ip: '192.168.43.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\JAGADE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63100}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 60e54a8415a5c57ff06c9d0da07e228c
+*** Element info: {Using=xpath, value=//input[@placeholder='Post Code'}
+	at com.evoketech.testscripts.AddCustomer.AddCustomertest(AddCustomer.java:19)
+

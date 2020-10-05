@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [DataDrivenFramework]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.evoketech.listeners.CustomListeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="xyz bank(failed)">
+    <classes>
+      <class name="com.evoketech.testscripts.AddCustomer">
+        <methods>
+          <include name="setUp"/>
+          <include name="AddCustomertest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.evoketech.testscripts.AddCustomer -->
+    </classes>
+  </test> <!-- xyz bank(failed) -->
+</suite> <!-- Failed suite [DataDrivenFramework] -->

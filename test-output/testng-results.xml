@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DataDrivenFramework" duration-ms="7109" started-at="2020-10-02T04:36:20Z" finished-at="2020-10-02T04:36:27Z">
+    <groups>
+    </groups>
+    <test name="xyz bank" duration-ms="7109" started-at="2020-10-02T04:36:20Z" finished-at="2020-10-02T04:36:27Z">
+      <class name="com.evoketech.testscripts.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.evoketech.testscripts.LoginTest@6d4e5011]" name="setUp" is-config="true" duration-ms="7338" started-at="2020-10-02T04:36:13Z" finished-at="2020-10-02T04:36:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginAsBankManager()[pri:0, instance:com.evoketech.testscripts.LoginTest@6d4e5011]" name="loginAsBankManager" duration-ms="251" started-at="2020-10-02T04:36:20Z" finished-at="2020-10-02T04:36:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.evoketech.testscripts.LoginTest@6d4e5011]" name="tearDown" is-config="true" duration-ms="654" started-at="2020-10-02T04:36:27Z" finished-at="2020-10-02T04:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.evoketech.testscripts.LoginTest -->
+      <class name="com.evoketech.testscripts.AddCustomer">
+        <test-method status="PASS" signature="AddCustomertest()[pri:0, instance:com.evoketech.testscripts.AddCustomer@57d7f8ca]" name="AddCustomertest" duration-ms="6822" started-at="2020-10-02T04:36:20Z" finished-at="2020-10-02T04:36:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCustomertest -->
+      </class> <!-- com.evoketech.testscripts.AddCustomer -->
+    </test> <!-- xyz bank -->
+  </suite> <!-- DataDrivenFramework -->
+</testng-results>

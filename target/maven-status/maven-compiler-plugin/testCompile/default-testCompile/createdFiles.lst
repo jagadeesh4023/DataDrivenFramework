@@ -1,0 +1,8 @@
+com\evoketech\utilities\ExtentManager.class
+com\evoketech\utilities\ExcelReader.class
+com\evoketech\base\BaseTest.class
+com\evoketech\utilities\TestUtil.class
+com\evoketech\listeners\CustomListeners.class
+com\evoketech\testscripts\AddCustomer.class
+com\evoketech\testscripts\AddCustomerTest.class
+com\evoketech\testscripts\LoginTest.class

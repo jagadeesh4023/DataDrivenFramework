@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DataDrivenFramework" parallel="none">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+		<listener
+			class-name="com.evoketech.listeners.CustomListeners"></listener>
+	</listeners>
+
+	<test name="xyz bank">
+		<classes>
+
+			<class name="com.evoketech.testscripts.LoginTest" />
+			<class name="com.evoketech.testscripts.AddCustomer" />
+
+		</classes>
+	</test>
+</suite> 
+ 
